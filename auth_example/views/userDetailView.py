@@ -17,7 +17,7 @@ class UserUpdateView(generics.UpdateAPIView):
     def update(self, request, *args, **kwargs):
         instance = self.get_object()
         instance.name = request.data.get("name")
-        instance.name = request.data.get("phone")
+        instance.phone = request.data.get("phone")
         instance.email = request.data.get("email")
         instance.save()
         serializer = self.get_serializer(instance)
