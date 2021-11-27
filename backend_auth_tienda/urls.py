@@ -16,6 +16,8 @@ urlpatterns = [
     path('user/<int:pk>/',             views.UserDetailView.as_view()),
     path('user/update/<int:pk>/',      views.UserUpdateView.as_view()), 
 
+    path('cuenta/',                    views.ListAccountsView.as_view()),
+
     path('prenda/',                    views.PrendaCreateView.as_view()),
     path('prendaList/',                views.PrendaListView.as_view()),
     path('prendaActualizar/<int:pk>/', views.PrendaUpdateView.as_view()),
