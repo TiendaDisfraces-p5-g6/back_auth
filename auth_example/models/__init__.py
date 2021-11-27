@@ -1,2 +1,3 @@
 from .user    import User
-from .prenda import Prenda
+from .account import Account
+from .prenda  import Prenda
