@@ -1,3 +1,3 @@
-from .userSerializer    import UserSerializer
-from .accountSerializer import AccountSerializer
-from .prendaSerializer  import PrendaSerializer
+from .userSerializer              import UserSerializer
+from .accountSerializer           import AccountSerializer
+from .prendaInventarioSerializer  import PrendaInventarioSerializer
