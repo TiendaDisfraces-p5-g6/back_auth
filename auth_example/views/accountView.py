@@ -3,7 +3,7 @@ from django.conf                             import settings
 from auth_example.models.account             import Account
 from auth_example.serializers.userSerializer import AccountSerializer
 
-class ListAccountsView(generics.ListAPIView):
+class ListAccountsView(generics.RetrieveAPIView):
     queryset         = Account.objects.all()
     serializer_class = AccountSerializer
     def get(self, request, *args, **kwargs):
