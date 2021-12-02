@@ -16,7 +16,7 @@ urlpatterns = [
     path('user/<int:pk>/',                       views.UserDetailView.as_view()),
     path('user/update/<int:pk>/',                views.UserUpdateView.as_view()), 
 
-    path('cuenta/<int:pk>/',                              views.ListAccountsView.as_view()),
+    path('cuenta/<int:pk>/',                     views.ListAccountsView.as_view()),
 
     path('prendaInventario/',                    views.PrendaInventarioCreateView.as_view()),
     path('prendaInventarioList/',                views.PrendaInventarioListView.as_view()),
