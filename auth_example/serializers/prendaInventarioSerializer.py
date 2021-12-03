@@ -1,7 +1,6 @@
 from auth_example.models.prendaInventario     import PrendaInventario
 from rest_framework                           import serializers
 
-#from backend_auth_tienda.auth_example.models  import prendaInventario
 
 class PrendaInventarioSerializer(serializers.ModelSerializer):
     class Meta:
