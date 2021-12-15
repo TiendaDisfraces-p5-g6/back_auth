@@ -49,7 +49,7 @@ para ejecutar el proyecto en local:
 El proyecto se encuentra en un contenedor docker en la plataforma heroku:
 
 https://tienda-auth-ms-p5-g6.herokuapp.com/
-
+---------------------------------------------------------------------------------------
 ### Pruebas
 
 La ejecución de los casos de prueba se hizo por medio de la aplicacion postman:
