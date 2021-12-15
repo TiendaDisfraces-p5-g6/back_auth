@@ -13,7 +13,7 @@ class PrendaInventarioCreateView(views.APIView):
         return Response("prenda creada", status=status.HTTP_201_CREATED)
 
 
-class PrendaInventarioListView(generics.ListAPIView):
+class PrendaInventarioListView(generics.RetrieveAPIView):
     serializer_class = PrendaInventarioSerializer
     def get_queryset(self):
         queryset = PrendaInventario.objects.all()
