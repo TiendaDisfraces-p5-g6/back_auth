@@ -1,10 +1,10 @@
-###### Proyecto de Ciclo IV: Tienda de alquiler de Disfraces
+# Proyecto de Ciclo IV: Tienda de alquiler de Disfraces
 Este proyecto está enfocado en la creación de una página web que permita de forma sistemática el alquiler de disfraces y en una versión siguiente de manera adicional el alquiler de trajes, el valor agregado está en la personalización de los disfraces, adicional a la opción de alquiler de prendas en stock
 
-# Microservicio: autenticación de usuarios
+### Microservicio: autenticación de usuarios
 para la realizacion de este microservicio se utilizo el framework django, con el lenguaje de programacion python, las pruebas correspondientes se realizaron en postman 
 
-# Contenido de Este repositorio: 
+### Contenido de Este repositorio: 
 
  1. Se tiene una carpeta llamada auth_example donde donde se administran las aplicaciones que el proyecto este utiliza, esta carpeta contiene las carpetas: models, migrations, serializers y views, asi como los archivos admin.py, apps.py y test.py. 
 
@@ -14,7 +14,7 @@ para la realizacion de este microservicio se utilizo el framework django, con el
 
  4. se tienen dos archivos que permiten iniciar un servidor web de manera local y en la nube, estos archivos son manage_dev.py y manage.py
 
- # Requerimientos 
+ ### Requerimientos 
 ```
   Django==3.2.9
   djangorestframework==3.12.4
@@ -26,7 +26,7 @@ para la realizacion de este microservicio se utilizo el framework django, con el
   drf-spectacular==0.21.0
 ```
 
-# Ejecución del proyecto
+### Ejecución del proyecto
 
 para ejecutar el proyecto en local:
 
@@ -50,7 +50,7 @@ El proyecto se encuentra en un contenedor docker en la plataforma heroku:
 
 https://tienda-auth-ms-p5-g6.herokuapp.com/
 
-# Pruebas
+### Pruebas
 
 La ejecución de los casos de prueba se hizo por medio de la aplicacion postman:
 
