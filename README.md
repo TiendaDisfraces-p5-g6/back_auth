@@ -1,4 +1,4 @@
-# Proyecto de Ciclo IV: Tienda de alquiler de Disfraces
+###### Proyecto de Ciclo IV: Tienda de alquiler de Disfraces
 Este proyecto está enfocado en la creación de una página web que permita de forma sistemática el alquiler de disfraces y en una versión siguiente de manera adicional el alquiler de trajes, el valor agregado está en la personalización de los disfraces, adicional a la opción de alquiler de prendas en stock
 
 # Microservicio: autenticación de usuarios
@@ -15,7 +15,7 @@ para la realizacion de este microservicio se utilizo el framework django, con el
  4. se tienen dos archivos que permiten iniciar un servidor web de manera local y en la nube, estos archivos son manage_dev.py y manage.py
 
  # Requerimientos 
-
+```
   Django==3.2.9
   djangorestframework==3.12.4
   djangorestframework-simplejwt==5.0.0
@@ -24,6 +24,7 @@ para la realizacion de este microservicio se utilizo el framework django, con el
   gunicorn==20.1.0
   django-heroku==0.3.1
   drf-spectacular==0.21.0
+```
 
 # Ejecución del proyecto
 
@@ -32,22 +33,18 @@ para ejecutar el proyecto en local:
 1. Se descarga el proyecto comprimido de GitHub
 
 2. Al tener el proyecto en el ordenador, por la consola de comandos de ingresa al proyecto utilizando el comando cd:
-
    ```
     cd proyecto_p5Final
-
    ```
 3. se debe inicializar el entorno virtual:
 
    ```
     env/Scripts/activate
-
    ```
 4. se debe ingresar el siguiente comando para ejecutar el proyecto en local(computador personal o servidor):
 
    ```
-    python manage_dev.py runserver
-
+    python manage_dev.py runserver 
    ```
 El proyecto se encuentra en un contenedor docker en la plataforma heroku:
 
